@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Youtube-Animation/style.css"> 
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2c2c2c; 
+            color: #59FF00;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: lawngreen;
+            text-align: center;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #ddd;
+            text-align: center;
+            padding: 10px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        a {
+            color: #59FF00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00A403;
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .item {
+            flex: 1 1 300px; /* 1 item can grow/shrink, 300px as base width */
+            max-width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .item a {
+            display: block;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .item:hover img {
+            transform: scale(1.05);
+        }
+
+        .back-button {
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .sitemap {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1a1a1a;
+            color: #59FF00;
+        }
+
+        /* Responsive design: Ensure 3 items per row on desktop, 2 per row on tablet, 1 per row on mobile */
+        @media (max-width: 768px) {
+            .item {
+                flex: 1 1 45%; /* 2 items per row on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .item {
+                flex: 1 1 100%; /* 1 item per row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <img src="images/whitechron.png" alt="Website Logo" class="logo">
+</header>
+
+<h1>Videos</h1>
+<p>Below are videos of my finished animations! Look through to see what it is that I create. After completing my lessons, you can learn how to create videos like mine!</p>
+
+<main class="container">
+    <section class="content">
+        <h1>Click the images to view full Animation</h1>
+        
+        <div class="grid">
+            <div class="item">
+                <a href="https://youtu.be/Of90jwXg9F0?si=vv63l1jHxMZJPwWf" target="_blank"> shrimboe
+                    <img src="images/thumb1.jpg" alt="Shrimboe">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/r6M8eHOzJF8?si=SCZJPWaJhx9xH9mX" target="_blank"> cravano
+                    <img src="images/thumb2.jpg" alt="Cravano">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/vXnhOFVr3HU?si=Y5EFfZNCkdmQuhq0" target="_blank">bone wubbox v3
+                    <img src="images/thumb3.jpg" alt="Wubv3">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/633hWNNracA?si=XHIoGMwJS99Fw9wt" target="_blank"> light wubbox
+                    <img src="images/thumb4.jpg" alt="Lightwub">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/K1lvd5Gh_Zo?si=rqAfTGzmeA_XucDV" target="_blank"> bone wubbox v2
+                    <img src="images/thumb5.jpg" alt="Wubv2">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/HerTiSJdGHE?si=haf5SCvDvPgLxBCJ" target="_blank"> psychic wubbox
+                    <img src="images/thumb6.jpg" alt="Psywub">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/QrTAKArCyiI?si=06ww8OdQ9czEFwl2" target="_blank"> bone wubbox
+                    <img src="images/thumb7.jpg" alt="Wubv1">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/1j4ABQ0NUlE?si=gXSUz4KhElyNDh3x" target="_blank">croak
+                    <img src="images/thumb8.jpg" alt="Croak">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/633hWNNracA?si=afNKUbTuWmHSbyU_" target="_blank">sky Painting
+                    <img src="images/thumb9.jpg" alt="Lgbwub">
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<div class="back-button">
+    <a href="index.html">Back to Home</a>
+</div>
+
+<div class="sitemap">
+    <h2>Navigations</h2>
+    <a href="about.html">About me</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="Lessons.html">Lessons</a>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Chron</p>
+</footer>
+
+</body>
+</html>
+
